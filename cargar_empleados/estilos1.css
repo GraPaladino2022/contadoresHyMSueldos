@@ -1,0 +1,625 @@
+header, section, footer{
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+body {
+	background-attachment: fixed;
+	font-family:  Verdana, Tahoma,!important;
+	color: #0cff00
+}
+header {
+	height: 150px;
+	/*background-color: #3333ff;*/
+	position: relative;
+	top: 0;
+	box-shadow: 5px 5px 7px rgba(0, 0, 102,153);
+	border-radius: 7px;
+	z-index: 1000;
+	/* background:-webkit-gradient(linear, 50% 50%, 30% 100%, from(#036fbc), to(#fa02fe));*/
+	background: -webkit-gradient(linear, 50% 50%, 30% 200%, from(#adad85), to(#0000ff)); 
+}
+
+/*#marca{
+	width: 700px;
+	float: left;
+	padding: 35px;
+	box-sizing: border-box;
+	margin-top: -15px;
+}la cambio por*/
+#marca{
+	width: 700px;
+	margin-left: 140px;
+	padding: 35px;
+	box-sizing: border-box;
+	margin-top: -15px;
+}
+
+h1, h2{
+	margin: 0;
+	color: #ffffff;
+	font-weight: bold;
+	font-family: 'Lobster', cursive;
+	text-align: center;
+}
+h1{
+	font-size: 40px;
+}
+h2{
+	font-size: 20px;
+}
+#botonera_principalA{
+	width: 960px;
+	background-color: #3333ff;
+	font-weight: bold;
+	height: 140px;
+	margin-left: 170px;
+	margin-top: 20px;
+	border-radius: 7px;
+	border: 3.5px solid #adad85;
+}
+/*ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-decoration: none;
+}
+
+ul li {
+	display: inline;
+	margin-top: 40;
+}
+
+li a {
+	border-radius: 40px;
+	display: inline-block; 
+	margin-top: 21px;
+	/*color:  #000000;
+	font-weight: bold;
+	text-align: center;
+	font-size: 14px;
+	text-decoration: none;
+	padding-top:10px ;
+	box-sizing: border-box;
+	padding: 30px 250px;
+}lo cambio por*/
+#botonera_principalA ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-decoration: none;
+}
+#botonera_principalA ul li {
+	display: inline;
+	margin-top: 40;
+}
+#botonera_principalA ul li a {
+	border-radius: 40px;
+	display: inline-block; /*para que tengan propiedades de bloque*/
+	margin-top: 21px;
+	text-decoration: none;
+	padding-top:10px ;
+	box-sizing: border-box;
+	color:  #ffff66;
+	padding: 30px 40px;/*modifica el tamaño del boton*/
+}
+/*ul li a:hover{
+	box-shadow: 0px 0px 50px #000000;
+	color: #00ff00;
+}lo cambio por*/
+#botonera_principalA ul li a:hover {
+	box-shadow: 0px 0px 50px/* #0cff00;*/#000000;
+	color: #00ff00;
+}
+/*section {
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+}*/
+#inicioA{
+    height: 850px;
+    width: 960px;
+}
+#inicioAA{
+	width: 400px;
+    height: 450px;
+    margin-top: 20px;
+    margin-bottom: none;
+    font-size: medium;
+    text-align: justify;
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: red;
+    float: left;
+}
+/*#inicioAA{
+	width: 450px;
+	height: 1200px;
+	margin-top: 21px;
+	background-color: red;
+	float: left;
+}*/
+#formularioA{
+	margin-top: 10px;
+}
+input, textarea{
+	width: 400px;
+	padding: 10px;
+	display: block;
+	margin-bottom: 5px;
+}
+input[type="submit"]{
+	width: 200px;
+}
+.info_emp {
+	width: 550px;
+	float: right;
+}
+.borrar {
+	clear: both;
+}
+.info_empA{
+	width: 550px;
+	float: right;
+	color: black;
+}
+.borrar {
+	clear: both;
+}
+/*.imagenes_ancho{
+	width: 100%
+}
+.fondo_trans{
+	background-color: rgba(0,0,0,0.3);
+}
+
+#nosotros{
+    height: 850px;
+}*/
+/*#nos_encab{
+    height: 50px;
+    font-family: 'Lobster', cursive; 
+    color:  #ffffff;
+    margin-top: 80px;
+    font-size: 30px;
+    text-align: center;
+    line-height: normal;
+    background-color:  #3333ff;
+    border-radius: 7px;
+    box-shadow: 5px 5px 7px rgba(153, 153, 255, 102)
+}*/
+/*h3 {
+	font-size: 40px;
+	text-align: center;
+	font-weight: bold;
+	background-color: #3333ff; 
+	border: 2.5px solid #3333cc;
+	border-radius: 7px; 
+	color: #ffffff;
+	font-family: 'Lobster', cursive; 
+	}*/
+.txt_negro {
+	font-size: 15px;
+	text-align: justify;
+	font-family: Verdana;
+	margin: 10;
+}
+#inicioB{
+	width: 400px;
+    height: 450px;
+    margin-top: 100px;
+    margin-left: 200px;
+    float: right;
+    background-color: blue;
+    border-radius: 7px;
+}
+/*#inicioB{
+	width: 400px;
+	height: auto;
+	margin-top: 21px;
+	background-color: blue;
+	float: right;
+}*/		
+/*#nos_izq{
+	width: 400px;
+    height: 450px;
+    background-image: url(imagenes/fondo.PNG);
+    margin-top: 20px;
+    margin-bottom: none;
+    font-size: medium;
+    text-align: justify;
+    box-sizing: border-box;
+    padding: 10px;
+    font-family: 'Markazi Text', serif;
+    line-height: normal;
+    float: left;
+    border-radius: 7px;
+}
+
+#nos_der{
+	width: 400px;
+    height: 450px;
+    margin-top: 100px;
+    float: right;
+    border-radius: 7px;
+}
+#nos_ab{
+	width: 960px;
+	height: 250px;
+	clear: both;
+    margin-top: -30px;
+    margin-bottom: none;
+    font-size: medium;
+    text-align: justify;
+    box-sizing: border-box;
+    padding: 10px;
+    font-family: 'Markazi Text', serif;
+    line-height: normal;
+    float: left;
+    border-radius: 7px;
+     background-image: url(imagenes/fondo.PNG);
+}*/
+/*#inicio1{
+	width: 960px;
+	height: 500px
+}
+#modulo_ini{
+	height: 500px;
+}*/
+/*#ini1{
+	background-color: #99ccff;
+}*/
+/*#ini2{
+	background-color: #669999;
+}
+#servicios{
+	width: 960px;
+	height: 1850px;
+}
+#modulo_ser{
+	height: 700px;
+}*/
+#ser1{
+	/*background-color: #99ccff;*/
+}
+#ser2{
+	/*background-color: #999966;*/
+}
+#ser3{
+	/*background-color: #669999;*/
+}
+
+#ser4{
+	/*background-color: #993399;*/
+}
+#ser5{
+	/*background-color: #999966;*/
+}
+#ser6{
+	/*background-color:#999966;*/
+}
+#contacto{
+	width: 960px;
+	height: 200px;
+	margin-left: 500px;
+}
+#modulo_contacto{
+	height: 200px;
+}
+#contacto1{
+	/*background-color: #339933;*/
+
+}
+
+#contacto3{
+	/*background-color: #999966;*/
+	background-image: cover;
+	margin-top: 30px;
+}
+/*input,textarea{
+	margin-bottom: 5px;*//*separa las casillas entre si, tambien de puede hacer un estilo eligiendo de BT un modelo de cajas usando el layout*/
+}
+h5{
+	color: #000000;
+	font-size: 18px;
+}
+footer{
+	width: 960px;
+	height: 250px;
+	background-color: #3333ff;;
+	border: 2.5px solid #4d0099;
+	border-radius: 7px;
+	box-shadow: 5px 5px 7px rgba(153, 153, 255, 102);
+	margin-top: -230px;
+}
+
+#logomyh{
+	width: 250px;
+    float: left;
+    border: 2.5px solid #000000;
+    border-radius: 7px;
+}
+#mail{
+	float: left;
+	margin-left: -150px;
+	margin-top: 60px;
+	list-style-type: none;
+}
+#datosDeContacto{
+    height: 190px;
+    width: 300px;
+   margin-top: 35px;
+   margin-left: -10px;
+    float: left;
+    border: 2.5px solid #000000; 
+   padding: 10px;
+   border-radius: 7px;
+}
+.textoContacto{
+    color: white;
+    line-height: normal;
+    font-size: 17px;
+}
+.textoContacto1{
+	color: #ff6666;
+	line-height: normal;
+    font-size: 17px;
+}
+#des{
+	text-align: center;
+	clear: both;
+}
+@media all and (min-width: 600px) and (max-width: 1023px){
+
+ section, footer{
+	width: 580px;		
+}
+header{
+	width: 650px;
+	margin-left: 35px;
+}
+#marca{
+	width: 590px;
+	margin-left: 60px;
+	margin-top: 5px;
+}
+#botonera_principal{
+	width: 600px;
+	margin-left: 60px;
+	height: 100px;
+	/*margin-right: 170px;
+	margin-top: 20px;
+	border-radius: none;
+	border: none;*/
+}
+ul li a{
+	margin-left: 60px;
+}
+ul li a, #botonera_ser ul li a {
+	padding: 12px 8px; /*modifica el tamaño del boton*/	
+}
+li a {
+	padding: 30px 10px;/*achico el paddin de ancho para que entren los botones*/
+}
+#inicio{
+	width: 680px;
+	height: 385px;
+	
+}
+#nosotros{
+	width: 680;
+    height: 800px; /*despues lo tengo que cambiar*/
+    margin-top: 20px;
+    background-color: green;
+}
+#nos_encab{
+	width: 580px;
+	height: 90px;
+    margin-top: 20px;
+    font-size: 30px;
+}
+#nos_izq{
+	width: 580px;
+    height: 350px;
+    float: none;
+}
+#nos_der{
+	display: none; /*para sacar una imagen*/
+	float: none;
+}
+#nos_ab{
+	width: 580px;
+	height: 300px;
+     float: none;
+}
+#servicios{
+	margin-top: 20px;
+	width: 580PX;
+	height: 3200px;
+	background-color: red;
+}
+#contacto{
+	/*clear: both;*/
+	width: 580px;
+}
+#servicios{
+	height: 3250px;
+}
+#ser1, #ser2, #ser3, #ser4{
+	width: 580px;
+}
+footer{
+	background-color: green;
+	position: relative;
+	bottom: 0;
+	height: 480px;
+}
+#logomyh{
+	width: 180px;
+	float: left;
+	margin-left: 40px;
+	margin-top: 30px;
+}
+#mail{
+	width: 190px;
+	float: right;
+}
+#datosDeContacto{
+	width: 460px;
+	margin-left: 70px;
+	clear: both;
+}
+#des{
+
+}
+}/*fin de @media 600px a 1023px*/
+
+@media all and (max-width: 599px){
+
+header, section, footer {
+	width: 90%;
+}
+header {
+	height: auto;
+	position: relative;/*no se puede sacar el sticky, por eso pongo relative*/
+	top: 0;
+	margin-left: 50px;
+}
+
+#marca{
+	width: 100%;
+	height: auto;/*deberia ser auto*/
+	float: none;/*para que los botones no se vengan a la cabecera y queden debajo*/	
+	margin-top: 20px;
+}
+h1{
+	text-align: center;/*para que el título quede centrado en el ancho*/
+}
+/*#logo{
+	width: 100%;
+	float: none;
+	height: auto;
+	text-align: center;
+	margin-top: -30px;
+}*/
+#botonera_principal{
+	width: 90%;
+	float: none;
+	height: auto;
+	margin-left: 50px;
+}
+ul li {
+	display: block;
+}
+li a {
+	width: 100%;/*le agrego ancho para que el botón funcione en todo el ancho del dispositivo*/
+	padding: 10px 0px;/*le saco el padding porque no tengo el box sizing y el botón se sobresaldria y achico el vertical*/
+	text-align: center;/*para centrar el nombre del boton*/
+}
+#inicio{
+	height: auto;	/*no poner alto automático porque tiene imagen de fondo*/
+	margin-left: 30px;
+}
+#nosotros{
+    height: auto;/*aca pongo auto porque todo lo que está adentro le vamos a sacar el float*/
+}
+#nos_encab, #nos_izq, #nos_ab{
+    height: auto;
+    width: 90%;
+    float: none;
+    margin-left: 40px;
+}
+#nos_encab{
+	margin-top: 30px;
+}
+#nos_der{
+	display: none;
+}
+#nos_ab{
+	margin-top: 20px;
+}
+#servicios{
+	width: auto;
+	margin-left: 40px;
+}
+#ser1, #ser2, #ser3, #ser4{
+	margin-top: 10px;
+}
+#contacto{
+	width: auto;
+	/*height: 200px;*/
+}
+/*#modulo_contacto{
+	height: 200px;
+}*/
+#contacto1{
+	background-color: #000099;
+	margin-top: 2630px;
+}
+#contacto2{
+	/*display: none;*/
+	margin-top: 30px;/*para que no quede tapado por las cajas de arriba*/
+}
+footer{
+	/*height: auto;*/
+	width: 90%;
+	position: relative;
+	bottom: 0;
+	margin-top: 2130px;/*para que el footer no quede tapado por las cajas de arriba*/
+	margin-left: 50px;
+}
+#logomyh{
+	/*width: 200px;
+    padding: 0;
+    margin: 0;
+    width: 95px;
+    height: 100px;
+    float: left;
+    margin-top: 25px;
+    margin-right: 20px;
+    margin-left: 20px;
+    border: 2.5px solid #000000;
+    border-radius: 7px;*/
+    display: none;
+}
+#mail{
+	width: 60px;
+	float: left;
+	margin-left: 0px;
+	/*margin-top: 80px;*/
+}
+#datosDeContacto{
+	width: 230px;
+   /* height: 190px;
+    width: 300px;*/
+   margin-left: -20px;
+  /* padding: 10px;*/
+   float: right;
+}
+/*#mail{
+	width: 150px;
+	background-color: black;
+	float: left;
+	margin-left: 100px;
+	margin-top: 80px;
+	border-radius: 7px;
+}
+#datosDeContacto{
+	width: 360px;
+    height: 190px;
+    width: 300px;
+   margin-top: 40px;
+   margin-left: 130px;
+    float: left;
+    border: 2.5px solid #000000; 
+   padding: 10px;
+   border-radius: 7px;
+}*/
+.textoContacto{
+   /* color: white;
+    line-height: normal;*/
+    font-size: 15px;
+}
+}/*fin de @media 599*/
+
