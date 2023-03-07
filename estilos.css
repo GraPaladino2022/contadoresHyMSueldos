@@ -11,16 +11,13 @@ body {
 }
 header {
 	height: 150px;
-	/*background-color: #3333ff;*/
 	position: relative;
 	top: 0;
 	box-shadow: 5px 5px 7px rgba(0, 0, 102,153);
 	border-radius: 7px;
 	z-index: 1000;
-	/* background:-webkit-gradient(linear, 50% 50%, 30% 100%, from(#036fbc), to(#fa02fe));*/
 	background: -webkit-gradient(linear, 50% 50%, 30% 200%, from(#adad85), to(#0000ff)); 
 }
-
 #marca{
 	width: 700px;
 	float: left;
@@ -28,7 +25,6 @@ header {
 	box-sizing: border-box;
 	margin-top: -15px;
 }
-
 h1, h2{
 	margin: 0;
 	color: #ffffff;
@@ -58,12 +54,10 @@ ul {
 	list-style-type: none;
 	text-decoration: none;
 }
-
 ul li {
 	display: inline;
 	margin-top: 40;
 }
-
 li a {
 	border-radius: 40px;
 	display: inline-block; /*para que tengan propiedades de bloque*/
@@ -80,7 +74,6 @@ li a {
 	color:  #ffff66;
 	padding: 30px /*20*/250px;/*modifica el tamaño del boton*/
 }
-
 ul li a:hover{
 	box-shadow: 0px 0px 50px/* #0cff00;*/#000000;
 	color: #00ff00;
@@ -107,7 +100,6 @@ ul li a:hover{
 .fondo_trans{
 	background-color: rgba(0,0,0,0.3);
 }
-
 #nosotros{
     height: 850px;
 }
@@ -154,7 +146,6 @@ h3 {
     float: left;
     border-radius: 7px;
 }
-
 #nos_der{
 	width: 400px;
     height: 450px;
@@ -178,19 +169,9 @@ h3 {
     border-radius: 7px;
      background-image: url(imagenes/fondo.PNG);
 }
-/*#inicio1{
-	width: 960px;
-	height: 500px
-}
-#modulo_ini{
-	height: 500px;
-}*/
-/*#ini1{
-	background-color: #99ccff;
-}*/
-#ini2{
+/*#ini2{
 	background-color: #669999;
-}
+}*/
 #servicios{
 	width: 960px;
 	height: 1850px;
@@ -198,24 +179,24 @@ h3 {
 #modulo_ser{
 	height: 700px;
 }
-#ser1{
-	/*background-color: #99ccff;*/
+/*#ser1{
+	background-color: #99ccff;
 }
 #ser2{
-	/*background-color: #999966;*/
+	background-color: #999966;
 }
 #ser3{
-	/*background-color: #669999;*/
+	background-color: #669999;
 }
 
 #ser4{
-	/*background-color: #993399;*/
+	background-color: #993399;
 }
 #ser5{
-	/*background-color: #999966;*/
+	background-color: #999966;
 }
 #ser6{
-	/*background-color:#999966;*/
+	background-color:#999966;*/
 }
 #contacto{
 	width: 960px;
@@ -225,13 +206,10 @@ h3 {
 #modulo_contacto{
 	height: 200px;
 }
-#contacto1{
-	/*background-color: #339933;*/
-
-}
-
+/*#contacto1{
+	background-color: #339933;
+}*/
 #contacto3{
-	/*background-color: #999966;*/
 	background-image: cover;
 	margin-top: 30px;
 }
@@ -251,7 +229,6 @@ footer{
 	box-shadow: 5px 5px 7px rgba(153, 153, 255, 102);
 	margin-top: -230px;
 }
-
 #logomyh{
 	width: 250px;
     float: left;
@@ -306,10 +283,6 @@ header{
 	width: 600px;
 	margin-left: 60px;
 	height: 100px;
-	/*margin-right: 170px;
-	margin-top: 20px;
-	border-radius: none;
-	border: none;*/
 }
 ul li a{
 	margin-left: 60px;
@@ -322,14 +295,13 @@ li a {
 }
 #inicio{
 	width: 680px;
-	height: 385px;
-	
+	height: 385px;	
 }
 #nosotros{
 	width: 680;
     height: 800px; /*despues lo tengo que cambiar*/
     margin-top: 20px;
-    background-color: green;
+    /*background-color: green;*/
 }
 #nos_encab{
 	width: 580px;
@@ -349,16 +321,15 @@ li a {
 #nos_ab{
 	width: 580px;
 	height: 300px;
-     float: none;
+    float: none;
 }
 #servicios{
 	margin-top: 20px;
 	width: 580PX;
 	height: 3200px;
-	background-color: red;
+	/*background-color: red;*/
 }
 #contacto{
-	/*clear: both;*/
 	width: 580px;
 }
 #servicios{
@@ -368,7 +339,7 @@ li a {
 	width: 580px;
 }
 footer{
-	background-color: green;
+	/*background-color: green;*/
 	position: relative;
 	bottom: 0;
 	height: 480px;
@@ -402,9 +373,8 @@ header {
 	height: auto;
 	position: relative;/*no se puede sacar el sticky, por eso pongo relative*/
 	top: 0;
-	margin-left: 50px;
+	margin-left: 0px;
 }
-
 #marca{
 	width: 100%;
 	height: auto;/*deberia ser auto*/
@@ -414,18 +384,11 @@ header {
 h1{
 	text-align: center;/*para que el título quede centrado en el ancho*/
 }
-/*#logo{
-	width: 100%;
-	float: none;
-	height: auto;
-	text-align: center;
-	margin-top: -30px;
-}*/
 #botonera_principal{
 	width: 90%;
 	float: none;
 	height: auto;
-	margin-left: 50px;
+	margin-left: 0px;
 }
 ul li {
 	display: block;
@@ -437,7 +400,7 @@ li a {
 }
 #inicio{
 	height: auto;	/*no poner alto automático porque tiene imagen de fondo*/
-	margin-left: 30px;
+	margin-left: 0px;
 }
 #nosotros{
     height: auto;/*aca pongo auto porque todo lo que está adentro le vamos a sacar el float*/
@@ -446,7 +409,7 @@ li a {
     height: auto;
     width: 90%;
     float: none;
-    margin-left: 40px;
+    margin-left: 0px;
 }
 #nos_encab{
 	margin-top: 30px;
@@ -464,21 +427,17 @@ li a {
 #ser1, #ser2, #ser3, #ser4{
 	margin-top: 10px;
 }
-#contacto{
+/*#contacto{
 	width: auto;
-	/*height: 200px;*/
 }
-/*#modulo_contacto{
-	height: 200px;
-}*/
 #contacto1{
 	background-color: #000099;
 	margin-top: 2630px;
 }
-#contacto2{
-	/*display: none;*/
-	margin-top: 30px;/*para que no quede tapado por las cajas de arriba*/
-}
+#contacto2{*/
+	/*display: none;
+	margin-top: 30px;para que no quede tapado por las cajas de arriba
+}*/
 footer{
 	/*height: auto;*/
 	width: 90%;
@@ -488,56 +447,23 @@ footer{
 	margin-left: 50px;
 }
 #logomyh{
-	/*width: 200px;
-    padding: 0;
-    margin: 0;
-    width: 95px;
-    height: 100px;
-    float: left;
-    margin-top: 25px;
-    margin-right: 20px;
-    margin-left: 20px;
-    border: 2.5px solid #000000;
-    border-radius: 7px;*/
     display: none;
 }
 #mail{
-	width: 60px;
+	width: 40px;
 	float: left;
 	margin-left: 0px;
-	/*margin-top: 80px;*/
 }
 #datosDeContacto{
-	width: 230px;
-   /* height: 190px;
-    width: 300px;*/
+	width: 250px;
    margin-left: -20px;
-  /* padding: 10px;*/
    float: right;
 }
-/*#mail{
-	width: 150px;
-	background-color: black;
-	float: left;
-	margin-left: 100px;
-	margin-top: 80px;
-	border-radius: 7px;
-}
-#datosDeContacto{
-	width: 360px;
-    height: 190px;
-    width: 300px;
-   margin-top: 40px;
-   margin-left: 130px;
-    float: left;
-    border: 2.5px solid #000000; 
-   padding: 10px;
-   border-radius: 7px;
-}*/
 .textoContacto{
-   /* color: white;
-    line-height: normal;*/
     font-size: 15px;
+}
+#des{
+	margin-left: 0px;
 }
 }/*fin de @media 599*/
 
