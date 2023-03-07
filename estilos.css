@@ -432,8 +432,8 @@ footer{
 	width: 90%;
 	position: relative;
 	bottom: 0;
-	margin-top: 2330px;/*para que el footer no quede tapado por las cajas de arriba*/
-	margin-left: 10px;
+	margin-top: 3330px;/*para que el footer no quede tapado por las cajas de arriba*/
+	margin-left: 0px;
 }
 #logomyh{
     display: none;
