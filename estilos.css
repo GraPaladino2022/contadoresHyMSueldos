@@ -421,7 +421,8 @@ li a {
 	margin-top: 20px;
 }
 #servicios{
-	width: auto;
+	width: 90%;
+	height: auto;
 	margin-left: 40px;
 }
 #ser1, #ser2, #ser3, #ser4{
